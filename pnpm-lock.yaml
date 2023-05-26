@@ -1,5 +1,13 @@
 lockfileVersion: '6.0'
 
+dependencies:
+  babylonjs:
+    specifier: ^6.5.0
+    version: 6.5.0
+  babylonjs-loaders:
+    specifier: ^6.5.0
+    version: 6.5.0
+
 devDependencies:
   vite:
     specifier: ^4.3.2
@@ -204,6 +212,22 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /babylonjs-gltf2interface@6.5.0:
+    resolution: {integrity: sha512-nnWl2HHEfSNM75E3AmpF9wbnFtAfW0Bgu7DlgIZhDd8b7Xts446xg40jisc+7GRlLcVIdjLeV1cTfssjnC8+UA==}
+    dev: false
+
+  /babylonjs-loaders@6.5.0:
+    resolution: {integrity: sha512-Se663qvd22hxiZMkVJHsrdnd+hsg/JvvV7aT65eoEkor/NwIlLGfekh0pWIDCF5ofOINvM09gUFvRBKq5yt6IA==}
+    dependencies:
+      babylonjs: 6.5.0
+      babylonjs-gltf2interface: 6.5.0
+    dev: false
+
+  /babylonjs@6.5.0:
+    resolution: {integrity: sha512-CVRkBb8/Pi7rLSM1tSJ/cJwoMsoZuT5k1r+DuD91YkRfTEf9FA+iMM3Q4QJNpR4gcJu4+zauNxsa947PeHAhAQ==}
+    requiresBuild: true
+    dev: false
 
   /esbuild@0.17.19:
     resolution: {integrity: sha512-XQ0jAPFkK/u3LcVRcvVHQcTIqD6E2H1fvZMA5dQPSOWb3suUbWbfbRf94pjc0bNzRYLfIrDRQXr7X+LHIm5oHw==}

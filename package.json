@@ -10,5 +10,9 @@
   },
   "devDependencies": {
     "vite": "^4.3.2"
+  },
+  "dependencies": {
+    "babylonjs": "^6.5.0",
+    "babylonjs-loaders": "^6.5.0"
   }
 }
